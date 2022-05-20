@@ -367,6 +367,7 @@ activator.onclick = (e) => {
           on = !on;
         };
       };
+      toggleSound()
       // await el.sound.addEventListener('click', toggleSound());
       setTimeout(() => {
         co.classList.add('display_none')
