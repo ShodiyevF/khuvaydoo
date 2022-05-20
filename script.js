@@ -2,6 +2,12 @@ const activator = document.querySelector('.activator')
 const co = document.querySelector('.container')
 const dis = document.querySelector('.aa')
 
+dis.onclick = (e) => {
+  dis.classList.add('display_none')
+  co.classList.add('display_none')
+  activator.classList.remove('display_none')
+}
+
 activator.onclick = (e) => {
   activator.classList.add('display_none')
   co.classList.remove('display_none')
